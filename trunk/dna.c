@@ -19,8 +19,9 @@ int main () {
    outfile = fopen(child,"rb");
 
    while ((len = fread(buf,1,sizeof(buf),infile)) > 0) {
-
-
+      // Randomize something here
+      
+      // Write out the data
       fwrite(buf,1,len,outfile);
    }
 
