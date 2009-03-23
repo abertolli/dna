@@ -1,0 +1,12 @@
+The idea of this program is to see if random evolution can occur.
+
+This program will
+(1) Make a copy of itself
+(2) Change some bytes at random
+(3) Run the copy and wait for it to finish executing
+(4) Delete the program
+(5) Go back to number 1
+
+To simulate an environment with limited resources, it would
+be ideal to run this program as a user with a quota limitation.
+
